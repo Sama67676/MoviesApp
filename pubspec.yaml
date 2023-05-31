@@ -1,0 +1,47 @@
+name: mobileapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  glassmorphism_widgets: ^0.2.2
+  rive: ^0.11.1
+  flutter_zoom_drawer: ^3.0.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/BCKGROUND.png
+    - images/video.png
+    - images/videoColored.png
+    - images/MovieName.jpg
+    - images/Room_(2015_film).png
+    - images/NeverLetMeGo(movie).jpg
+    - images/theLastOfUs(movie).jpg
+
+
+  fonts:
+    - family: badScript
+      fonts:
+        - asset: fonts/BadScript-Regular.ttf
+
